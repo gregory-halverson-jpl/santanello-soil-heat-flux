@@ -33,5 +33,8 @@ dev = [
 [tool.setuptools.package-data]
 santanello_soil_heat_flux = ["*.txt"]
 
+[tool.setuptools.packages.find]
+exclude = ["notebooks*", "references*"]
+
 [project.urls]
 "Homepage" = "https://github.com/JPL-Evapotranspiration-Algorithms/santanello-soil-heat-flux"
